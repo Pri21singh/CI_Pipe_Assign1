@@ -48,5 +48,5 @@ jobs:
 
       - name: Stop and Remove Container
         run: |
-          docker stop banking-container:PS
-          docker rm banking-container:PS
+          docker stop banking-container
+          docker rm banking-container
